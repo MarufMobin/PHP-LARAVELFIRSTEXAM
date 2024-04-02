@@ -1,0 +1,135 @@
+/* 
+    global Css Start here
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.alingment-text {
+    text-align: center;
+}
+
+/* global Css End here */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 98vh;
+}
+
+.inner-container {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px -13.5px
+}
+
+.card-badge {
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card-badge {
+    background-color: gray;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+.card-image {
+    padding: 0px 0px 30px;
+}
+
+.card-title-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+.card-designation {
+    padding: 10px 0px 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-description {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.card-contact {}
+
+.card-contact-info {
+    padding: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 22px;
+}
+
+.card-contact-info-pragraph {
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.important-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 0px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 26px;
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+    font-family: sans-serif;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: none;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 11px 26px;
+    color: #000;
+    border: 2px solid #000;
+    font-family: sans-serif;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
