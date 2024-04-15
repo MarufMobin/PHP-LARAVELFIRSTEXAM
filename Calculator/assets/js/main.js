@@ -32,7 +32,11 @@ function submitButton(){
     }
     else if( selectedButton === 'division'){
         let res =  Number(inputButtonOne) / Number(inputButtonTwo)
-       document.getElementById("resultBox").innerHTML = res;
+        if (isNaN(res)) {
+          document.getElementById("resultBox").innerHTML = 'Value Are Empty !';
+        }else{
+          document.getElementById("resultBox").innerHTML = res;
+        }
     }
 }
 
